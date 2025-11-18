@@ -150,7 +150,6 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1694</metaTag>
     <metaTag name="composed_start">1694</metaTag>
     <metaTag name="composer">Arcangelo Corelli</metaTag>
@@ -267,6 +266,10 @@
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.6666666666666667</tempo>
+            <text>Largo</text>
+            </Tempo>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -593,7 +596,8 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/2">
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -602,9 +606,12 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <startRepeat/>
+        <irregular>1</irregular>
+        <voice>
           <Chord>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
@@ -959,6 +966,7 @@
           </voice>
         </Measure>
       <Measure len="2/2">
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -967,9 +975,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
@@ -1243,7 +1248,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/2">
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1252,9 +1257,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -1503,9 +1509,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
@@ -1874,7 +1877,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/2">
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1883,9 +1886,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -2242,9 +2246,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
@@ -2824,7 +2825,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="2/2">
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -2837,9 +2838,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/2">
+        <voice>
           <FiguredBass>
             <ticks>1/2</ticks>
             <FiguredBassItem>
@@ -3376,9 +3378,6 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end</subtype>
-            </BarLine>
           </voice>
         </Measure>
       </Staff>
